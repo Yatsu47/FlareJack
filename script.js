@@ -27,6 +27,10 @@ function updateScene() {
     });
 }
 
+const audio = new Audio('path/to/your/audio.mp3');
+document.getElementById('play-music').addEventListener('click', () => {
+    audio.play();
+
 document.getElementById('speak-button').onclick = () => {
     responsiveVoice.speak(scenes[currentScene].text);
 };
