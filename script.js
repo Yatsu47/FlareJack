@@ -27,11 +27,11 @@ function updateScene() {
     });
 }
 
-const audio = new Audio('path/to/your/audio.mp3');
+const audio = new Audio('https://github.com/Yatsu47/FlareJack/blob/ea318272ef09b7b3e06644da357d8e9f618a1be0/Rozdzial1.mp3');
 document.getElementById('play-music').addEventListener('click', () => {
     audio.play();
 
-const audio = new Audio('audio/yourfile.mp3');
+const audio = new Audio('https://github.com/Yatsu47/FlareJack/blob/ea318272ef09b7b3e06644da357d8e9f618a1be0/Rozdzial1.mp3');
     
 document.getElementById('speak-button').onclick = () => {
     responsiveVoice.speak(scenes[currentScene].text);
