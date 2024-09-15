@@ -21,5 +21,17 @@
     <button class="button">Party Button</button>
     <a href="#" class="link-button">Link Button</a>
 
+
+    <audio id="narration" src="https://github.com/Yatsu47/FlareJack/blob/ea318272ef09b7b3e06644da357d8e9f618a1be0/Rozdzial1.mp3"></audio>
+
+<button onclick="playAudio()">Play Rozdzial 1</button>
+
+<script>
+  function playAudio() {
+    var audio = document.getElementById("narration");
+    audio.play();
+  }
+</script>
+    
 </body>
 </html>
