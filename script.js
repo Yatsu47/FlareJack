@@ -27,7 +27,7 @@ function updateScene() {
     });
 }
 
-const audio = new Audio('path/to/your/audio.mp3');
+const audio = new Audio('https://github.com/Yatsu47/FlareJack/blob/14547d60a1df35b684524117687106348a2507a5/Rozdzial1.mp3');
 document.getElementById('play-music').addEventListener('click', () => {
     audio.play();
 
